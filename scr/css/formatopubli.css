@@ -1,0 +1,145 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1f0e3a;
+}
+
+.cabecalho {
+  background-color: #460fa0;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.cabecalho .botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.cabecalho .botoes .logo {
+  width: 87px;
+  height: 90px;
+  padding-top: 5px;
+}
+
+.cabecalho .botoes .link {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.cabecalho .botoes .link img {
+  margin-left: 5px;
+}
+
+.cabecalho .botoes .link p {
+  margin-top: 2px;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.cabecalho .botoes button img {
+  width: 90px;
+  height: 70px;
+  font-family: 'Jockey One', sans-serif;
+}
+
+.cabecalho .bailao {
+  display: flex;
+  flex-direction: row;
+}
+
+.cabecalho .cadastrese {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  margin-right: 15px;
+}
+
+.cabecalho .cadastrese a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.cabecalho .login {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  margin-right: 15px;
+}
+
+.cabecalho .login a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  padding-left: 48px;
+}
+
+.corpo .div_artigo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 70%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.corpo .div_artigo h1 {
+  color: rgb(20, 167, 160);
+  font-size: 4.2rem;
+  line-height: 4.8rem;
+  margin-bottom: 1rem;
+  font-family: Gotham Black sans-serif;
+  max-width: 95%;
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+.corpo .div_artigo p {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  margin-bottom: 2.2rem;
+  font-weight: 300;
+  font-family: 'Gotham Book', sans-serif;
+}

@@ -1,0 +1,222 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color:#1f0e3a;
+}
+
+.cabecalho {
+  background-color: #460fa0;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.cabecalho .botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.cabecalho .botoes .logo {
+  width: 87px;
+  height: 90px;
+  padding-top:5px;
+}
+
+.cabecalho .botoes .link {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.cabecalho .botoes .link img {
+  margin-left: 5px;
+}
+
+.cabecalho .botoes .link p {
+  margin-top: 2px;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.cabecalho .botoes button img {
+  width: 90px;
+  height: 70px;
+  font-family: 'Jockey One', sans-serif;
+}
+
+.cabecalho .cadastrese {
+  background-color: #83519a;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 170px;
+  height: 50px;
+  margin-top: 25px;
+  gap: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  margin-right: 15px;
+}
+
+.cabecalho .cadastrese a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+main {
+  background-image: url(../imagens/2.PAGE_2.png);
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 500px;
+  padding-bottom: 30px;
+}
+
+.form .grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .grupo label {
+  font-family: 'Jockey One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 67px;
+  color: #f7f4f9;
+}
+
+.form .grupo input {
+  width: 334px;
+  height: 28px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.form .grupo a {
+  font-family: 'Jockey One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.form .grupo button {
+  background-color: #460fa0;
+  border: none;
+  width: 240px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.form .grupo button a {
+  color: #fff;
+  font-family: 'Jockey One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.abrirConfirmar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.abrirConfirmar:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.abrirConfirmar > div {
+  width: 570px;
+  height: 290px;
+  position: relative;
+  margin: 10% auto;
+  padding: 0;
+  background: #1f0e3a;
+}
+
+.fechar {
+  position: absolute;
+  width: 30px;
+  right: -15px;
+  top: -20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 25px;
+  margin-right: 20px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #8d0000;
+}
+
+.faixas {
+  background-color: #460fa0;
+  width: 100%;
+  height: 40px;
+}
+
+.textos {
+  font-family: 'Jockey One', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 5px 0px 5px;
+}
+
+.botaoCadastrar {
+  width: 100px;
+  height: 40px;
+  background-color: #460fa0;
+  border: none;
+  text-align: center;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 0px 0px 200px;
+}
